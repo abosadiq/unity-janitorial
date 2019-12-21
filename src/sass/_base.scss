@@ -1,0 +1,27 @@
+// colors
+$blue-color: #001032;
+$orange-color: #fd5c0c;
+$text-color: #000000;
+$white-color: #ffffff;
+
+// Fonts
+$title-font: "Montserrat", sans-serif;
+$text-font: "Roboto", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $text-font;
+  color: $text-color;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}

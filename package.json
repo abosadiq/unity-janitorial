@@ -1,0 +1,27 @@
+{
+  "name": "unity-janitorial",
+  "version": "1.0.0",
+  "description": "'website for janitorial services'",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass src/sass/main.scss src/style/style.css -w",
+    "devserver": "live-server src --browser=chrome",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abosadiq/unity-janitorial.git"
+  },
+  "author": "Wafi Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abosadiq/unity-janitorial/issues"
+  },
+  "homepage": "https://github.com/abosadiq/unity-janitorial#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

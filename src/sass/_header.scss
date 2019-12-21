@@ -1,0 +1,71 @@
+.header {
+  height: 65vh;
+  background-color: blueviolet;
+  color: $white-color;
+  font-size: 1.4rem;
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: $blue-color;
+    align-items: center;
+
+    &--phone-email {
+      margin-left: 8rem;
+    }
+
+    &--socail {
+      display: flex;
+      list-style: none;
+      margin-right: 8rem;
+
+      li {
+        padding: 1.3rem 0 1.3rem 0;
+
+        a {
+          color: $white-color;
+          padding: 1.3rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white-color;
+    list-style: none;
+    &--logo {
+      color: $blue-color;
+      margin-left: 8rem;
+      text-decoration: none;
+      font-family: "Montserrat";
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      display: block;
+      cursor: pointer;
+      span {
+        color: $orange-color;
+        float: right;
+      }
+    }
+    &--list {
+      display: flex;
+      list-style: none;
+      margin-right: 6rem;
+      font-size: 1.6rem;
+      &--item {
+        padding: 2.4rem 0rem;
+
+        margin-right: 1.5rem;
+        &-link {
+          color: $text-color;
+          text-decoration: none;
+          cursor: pointer;
+          padding: 2rem;
+        }
+      }
+    }
+  }
+}
