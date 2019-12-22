@@ -130,3 +130,32 @@ body {
   .images-content--title {
     font-size: 4rem;
     color: seagreen; }
+
+.about {
+  margin-top: 3rem;
+  background-color: #001032;
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0; }
+  .about__content {
+    width: 50%;
+    margin: 0 auto; }
+    .about__content--title {
+      font-size: 2.4rem;
+      margin-bottom: 1.2rem;
+      font-family: "Montserrat", sans-serif; }
+      .about__content--title span {
+        display: inline-block;
+        position: relative; }
+        .about__content--title span::before {
+          content: "";
+          width: calc(100% + 1.5rem);
+          height: 2px;
+          position: absolute;
+          margin-top: 0.8rem;
+          top: 100%;
+          left: 0;
+          background-color: #ffffff; }
+    .about__content--paragraph {
+      padding-top: 1.2rem;
+      line-height: 1.5rem; }
