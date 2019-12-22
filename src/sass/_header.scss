@@ -11,6 +11,14 @@
 
     &--phone-email {
       margin-left: 8rem;
+      .fas,
+      .far {
+        margin-right: 1.2rem;
+        font-size: 1.8rem;
+      }
+      .far {
+        margin-left: 1.2rem;
+      }
     }
 
     &--socail {
@@ -91,5 +99,49 @@
         }
       }
     }
+  }
+  &__imageSilder {
+    height: 85%;
+    position: relative;
+    z-index: 1;
+    &--arrows {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 3.6rem;
+      .fas {
+        padding: 1rem 1.5rem;
+        transition: all 0.4s;
+        color: darkviolet;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba($color: #000000, $alpha: 0.5);
+        }
+      }
+    }
+    &--images {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+
+      &-img-1 {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.images-content {
+  color: red;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &--title {
+    font-size: 4rem;
+    color: seagreen;
   }
 }
